@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>2018 World Cup Prediction</title>
+    <script src="https://d3js.org/d3.v2.js"></script>
+    <link rel="stylesheet" href="./prediction.css">
+</head>
+<body>
+<div id="chart"></div>
+<div class="groups">
+    <table class="table">
+        <thead>
+        <tr>
+            <th>小组A</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th><img class="flag" src="./icon/Russia.svg"></th>
+            <td>Russia</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Saudi%20Arabia.svg"></th>
+            <td>Saudi Arabia</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Egypt.svg"></th>
+            <td>Egypt</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Uruguay.svg"></th>
+            <td>Uruguay</td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>小组B</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th><img class="flag" src="./icon/Portugal.svg"></th>
+            <td>Portugal</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Spain.svg"></th>
+            <td>Spain</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Morocco.svg"></th>
+            <td>Morocco</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Iran.svg"></th>
+            <td>Iran</td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>小组C</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th><img class="flag" src="./icon/France.svg"></th>
+            <td>France</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Australia.svg"></th>
+            <td>Australia</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Peru.svg"></th>
+            <td>Peru</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Denmark.svg"></th>
+            <td>Denmark</td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>小组D</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th><img class="flag" src="./icon/Argentina.svg"></th>
+            <td>Argentina</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Iceland.svg"></th>
+            <td>Iceland</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Croatia.svg"></th>
+            <td>Croatia</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Nigeria.svg"></th>
+            <td>Nigeria</td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>小组E</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th><img class="flag" src="./icon/Brazil.svg"></th>
+            <td>Brazil</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Switzerland.svg"></th>
+            <td>Switzerland</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Costa%20Rica.svg"></th>
+            <td>Costa Rica</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Serbia.svg"></th>
+            <td>Serbia</td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>小组F</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th><img class="flag" src="./icon/Germany.svg"></th>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Mexico.svg"></th>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Sweden.svg"></th>
+            <td>Sweden</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/South%20Korea.svg"></th>
+            <td>South Korea</td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>小组G</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th><img class="flag" src="./icon/Belgium.svg"></th>
+            <td>Belgium</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Panama.svg"></th>
+            <td>Panama</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Tunisia.svg"></th>
+            <td>Tunisia</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/England.svg"></th>
+            <td>England</td>
+        </tr>
+        </tbody>
+    </table>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>小组H</th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th><img class="flag" src="./icon/Poland.svg"></th>
+            <td>Poland</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Senegal.svg"></th>
+            <td>Senegal</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Colombia.svg"></th>
+            <td>Colombia</td>
+        </tr>
+        <tr>
+            <th><img class="flag" src="./icon/Japan.svg"></th>
+            <td>Japan</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<script src="./prediction.js" type="text/javascript"></script>
+</body>
+</html>

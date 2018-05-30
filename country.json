@@ -1,0 +1,110 @@
+{
+  "countries": [
+    "Egypt",
+    "Morocco",
+    "Nigeria",
+    "Senegal",
+    "Tunisia",
+    "Australia",
+    "Iran",
+    "Japan",
+    "South Korea",
+    "Saudi Arabia",
+    "Belgium",
+    "Croatia",
+    "Denmark",
+    "England",
+    "France",
+    "Germany",
+    "Iceland",
+    "Poland",
+    "Portugal",
+    "Russia",
+    "Serbia",
+    "Spain",
+    "Sweden",
+    "Switzerland",
+    "Costa Rica",
+    "Mexico",
+    "Panama",
+    "Argentina",
+    "Brazil",
+    "Colombia",
+    "Peru",
+    "Uruguay"
+  ],
+  "groups": [
+    {
+      "name": "A",
+      "countries": [
+        "Russia",
+        "Saudi Arabia",
+        "Egypt",
+        "Uruguay"
+      ]
+    },
+    {
+      "name": "B",
+      "countries": [
+        "Portugal",
+        "Spain",
+        "Morocco",
+        "Iran"
+      ]
+    },
+    {
+      "name": "C",
+      "countries": [
+        "France",
+        "Australia",
+        "Peru",
+        "Denmark"
+      ]
+    },
+    {
+      "name": "D",
+      "countries": [
+        "Argentina",
+        "Iceland",
+        "Croatia",
+        "Nigeria"
+      ]
+    },
+    {
+      "name": "E",
+      "countries": [
+        "Brazil",
+        "Switzerland",
+        "Costa Rica",
+        "Serbia"
+      ]
+    },
+    {
+      "name": "F",
+      "countries": [
+        "Germany",
+        "Mexico",
+        "Sweden",
+        "South Korea"
+      ]
+    },
+    {
+      "name": "G",
+      "countries": [
+        "Belgium",
+        "Panama",
+        "Tunisia",
+        "England"
+      ]
+    },
+    {
+      "name": "H",
+      "countries": [
+        "Poland",
+        "Senegal",
+        "Colombia",
+        "Japan"
+      ]
+    }
+  ]
+}
